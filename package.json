@@ -1,0 +1,14 @@
+{
+  "name": "aureve-structa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:aureve": "pnpm --filter aureve dev",
+    "dev:structa": "pnpm --filter structa dev",
+    "dev": "pnpm --parallel --filter='./apps/*' dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
