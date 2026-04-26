@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 
-export function SellerDashboard({ profile }: { profile: any }) {
+export function SellerDashboard({ profile, listings, enquiries }: { profile: any; listings: any[]; enquiries: any[] }) {
   const firstName = profile?.full_name?.split(' ')[0] || 'there'
 
   return (
