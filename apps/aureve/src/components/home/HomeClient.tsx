@@ -685,7 +685,7 @@ export function HomeClient({ totalProperties, totalUsers, featured, localities, 
               <div style={{ width: '1px', height: '16px', background: 'rgba(224,123,57,0.3)' }} />
               <span style={{ fontSize: '12px', color: 'rgba(247,247,246,0.3)', fontFamily: 'DM Sans, sans-serif', fontWeight: 300 }}>Live material prices · Cost calculator · Verified suppliers</span>
             </div>
-            <a href="http://localhost:3001" target="_blank"
+            <a href="https://structa-app.vercel.app" target="_blank"
               style={{ fontSize: '11px', fontWeight: 600, color: '#E07B39', textDecoration: 'none', fontFamily: 'DM Sans, sans-serif', letterSpacing: '0.15em', textTransform: 'uppercase', border: '1px solid rgba(224,123,57,0.25)', padding: '9px 20px', borderRadius: '2px', transition: 'all 0.2s' }}
               onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(224,123,57,0.08)' }}
               onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = 'transparent' }}>
