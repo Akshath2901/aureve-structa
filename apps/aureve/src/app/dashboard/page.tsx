@@ -18,17 +18,13 @@ export default async function DashboardPage() {
   if (role === 'buyer') {
     const [{ data: saved }, { data: enquiries }] = await Promise.all([
       supabase.from('saved_properties').select('*, properties(id,title,slug,price,locality,thumbnail_url)').eq('user_id', user.id).order('created_at', { ascending: false }),
-      supabase.from('property_enquiries').select('*').eq('phone', profile.phone || '').order('created_at', { ascending: false }),
+      supabase.from('property_enquiries').select('*'),
     ])
     return <BuyerDashboard profile={profile} saved={saved || []} enquiries={enquiries || []} />
   }
 
   if (role === 'seller') {
-    const [{ data: listings }, { data: enquiries }] = await Promise.all([
-      supabase.from('properties').select('*').eq('builder_id', user.id).order('created_at', { ascending: false }),
-      supabase.from('property_enquiries').select('*'),
-    ])
-    return <SellerDashboard profile={profile} listings={listings || []} enquiries={enquiries || []} />
+    return <SellerDashboard profile={profile} />
   }
 
   if (role === 'agent') {
