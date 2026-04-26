@@ -100,7 +100,7 @@ export function StructaNavbar() {
 
         {/* Right */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-          <a href="http://localhost:3000" target="_blank" style={{
+          <a href="https://aureve-app.vercel.app" target="_blank" style={{
             fontSize: '12px', fontWeight: 500, padding: '6px 12px',
             borderRadius: '99px', border: '1px solid rgba(224,123,57,0.3)',
             color: scrolled ? '#8A96A8' : 'rgba(247,247,246,0.7)',

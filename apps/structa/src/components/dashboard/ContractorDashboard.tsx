@@ -18,7 +18,7 @@ export function ContractorDashboard({ profile, materials }: { profile: any, mate
     { icon: '🧮', label: 'Cost calculator',   href: '/calculator',       desc: 'Estimate your build cost' },
     { icon: '▲',  label: 'Live prices',        href: '/materials',        desc: 'Check today\'s rates' },
     { icon: '🏭', label: 'Find suppliers',     href: '/suppliers',        desc: 'Verified Hyderabad suppliers' },
-    { icon: '🏠', label: 'Buy property',       href: 'http://localhost:3000', desc: 'Browse on Aureve' },
+    { icon: '🏠', label: 'Buy property',       href: 'https://aureve-app.vercel.app', desc: 'Browse on Aureve' },
   ]
 
   return (

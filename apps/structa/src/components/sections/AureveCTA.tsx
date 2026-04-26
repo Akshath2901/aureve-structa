@@ -44,10 +44,10 @@ export function AureveCTA() {
                 Your Structa account works on Aureve too.
               </p>
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-                <a href="http://localhost:3000" className="btn btn-amber">
+                <a href="https://aureve-app.vercel.app" className="btn btn-amber">
                   🏠 Explore Aureve →
                 </a>
-                <a href="http://localhost:3000/properties" className="btn btn-outline-white">
+                <a href="https://aureve-app.vercel.app/properties" className="btn btn-outline-white">
                   Browse properties
                 </a>
               </div>
