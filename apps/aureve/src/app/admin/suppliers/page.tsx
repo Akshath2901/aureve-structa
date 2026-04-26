@@ -161,7 +161,7 @@ export default function AdminSuppliersPage() {
 
         {/* Detail panel */}
         {selected && (
-          <div style={{ background: '#fff', borderRadius: '16px', border: '1px solid rgba(201,168,76,0.2)', padding: '1.75rem', height: 'fit-content', position: 'sticky', top: '1rem', boxShadow: '0 4px 20px rgba(201,168,76,0.08)', position: 'relative', overflow: 'hidden' }}>
+          <div style={{ background: '#fff', borderRadius: '16px', border: '1px solid rgba(201,168,76,0.2)', padding: '1.75rem', height: 'fit-content', position: 'sticky', top: "1rem", boxShadow: "0 4px 20px rgba(201,168,76,0.08)", overflow: 'hidden' }}>
             <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '2px', background: 'linear-gradient(to right, var(--gold), transparent)' }} />
 
             <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
