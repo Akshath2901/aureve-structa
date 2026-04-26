@@ -97,7 +97,7 @@ export function Navbar() {
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
 
             {/* Structa link — desktop only */}
-            <a href="https://structa-app.vercel.app" target="_blank"
+            <a href="https://structa-hyderabad.vercel.app" target="_blank"
               className="nav-links"
               style={{ fontSize: '12px', fontWeight: 500, padding: '7px 14px', borderRadius: '4px', border: '1px solid rgba(224,123,57,0.3)', color: '#E07B39', textDecoration: 'none', fontFamily: 'DM Sans, sans-serif', transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}
               onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(224,123,57,0.08)' }}
@@ -192,7 +192,7 @@ export function Navbar() {
               </Link>
             </>
           )}
-          <a href="https://structa-app.vercel.app" target="_blank"
+          <a href="https://structa-hyderabad.vercel.app" target="_blank"
             style={{ padding: '13px', border: '1px solid rgba(224,123,57,0.25)', borderRadius: '2px', fontSize: '12px', fontWeight: 500, color: '#E07B39', textDecoration: 'none', fontFamily: 'DM Sans, sans-serif', textAlign: 'center' }}>
             🧱 Structa — Material prices
           </a>
